@@ -6,7 +6,7 @@ Prerequisites
 
 Ensure you have the following installed:
 
-    Python 3.6+
+    Python 3.10 # if possible 
     google-generativeai
     python-dotenv
     speechrecognition
