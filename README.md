@@ -17,28 +17,24 @@ Setup
 
     Clone the repository (if you haven't already):
 
-    sh
 
-git clone <repository-url>
-cd <repository-directory>
+        git clone <repository-url>
+        cd <repository-directory>
 
 Create a virtual environment (recommended):
 
-sh
 
-python3 -m venv venv
-source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+        python3 -m venv venv
+        source venv/bin/activate   # On Windows use `venv\Scripts\activate`
 
 Install the required packages:
 
-sh
 
-pip install google-generativeai python-dotenv speechrecognition pyttsx3
+        pip install google-generativeai python-dotenv speechrecognition pyttsx3
 
 Set up environment variables:
 
 Create a .env file in the project directory and add your Google API key:
 
-sh
 
-    GOOGLE_API_KEY=your_google_api_key
+        GOOGLE_API_KEY=your_google_api_key
